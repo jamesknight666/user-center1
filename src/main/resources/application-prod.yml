@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: user-center
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sennhei
+    username: root
+    password: 12345678
+  # session失效时间
+  session:
+    timeout: 86400
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
